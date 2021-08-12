@@ -1,0 +1,16 @@
+touch .gitignore
+git config --global user.name Abhishek
+git config --global user.email "abhioffical.1599@gmail.com"
+git init
+git add .                                                             (Staging Area)
+
+git commit -m "Initial Commit"
+git status                                                            ( Just to see )
+ssh-keygen -t ed25519 -C "abhioffical.1599@gmail.com"
+tail <path to id_rsa.pub>                                             (add this key to your github account)
+git remote add origin <ssh url.git>
+git push origin master
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
